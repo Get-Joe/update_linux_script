@@ -1,7 +1,7 @@
-##Linux Update Script.
+## Linux Update Script.
 This is a script for updating linux.
 
-###Couple quick things.
+### Couple quick things.
 1. This is written to run in #!bin/sh.
 2. This is written to be able to run as an anacron process.
 3. This is for people who are not affraid to break everything after an update.
