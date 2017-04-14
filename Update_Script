@@ -1,6 +1,11 @@
 #!/bin/sh
+# Exits the script if there are any errors in it
 set -e
+# Updates the repository
 /usr/bin/apt-get -qy update > /dev/null
+# Installs latest version of packages
 /usr/bin/apt-get -qy upgrade > /dev/null
+# Installs latest version of packages and dependancies
 /usr/bin/apt-get -qy dist-upgrade > /dev/null
+# Closes the script
 exit 0
