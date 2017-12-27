@@ -13,3 +13,5 @@ echo ""
 apt-get update -y | tee -a $logfile
 apt-get upgrade -y | tee -a $logfile
 apt-get dist-upgrade -y | tee -a $logfile
+apt-get autoremove -y | tee -a $logfile
+apt-get autoclean -y | tee -a $logfile
