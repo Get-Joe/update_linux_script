@@ -2,6 +2,8 @@
 
 clear
 
+# For each instance of "Machine" change for the name of your current machine.
+
 logfile=/var/log/Machine-Update.log
 dt=$(date '+%d/%m/%Y %H:%M:%S')
 
