@@ -3,6 +3,8 @@
 clear
 
 # For each instance of "Machine" change for the name of your current machine.
+# Change the path for your log file to what you want to use.
+# This log file will become large. It is suggested to be kept on a network location.
 
 logfile=/var/log/Machine-Update.log
 dt=$(date '+%d/%m/%Y %H:%M:%S')
